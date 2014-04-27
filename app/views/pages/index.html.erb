@@ -1,0 +1,11 @@
+<h1>FAQs</h1>
+<% @faqs.each do |faq| %>
+  <%= faq.question %>
+<% end %>
+
+<h1>Code Bases</h1>
+<% @code_bases.each do |code_base| %>
+  <%= code_base.name %>
+  <%= code_base.language.name %>
+  <%= code_base.loc.range %>
+<% end %>
