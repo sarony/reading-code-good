@@ -5,4 +5,12 @@ class PagesController < ApplicationController
     @code_bases = CodeBase.all
   end
 
+  def faq
+    @faqs = Faq.all
+  end
+
+  def code_base
+    @code_bases = CodeBase.all
+  end
+
 end

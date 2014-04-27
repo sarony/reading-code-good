@@ -1,6 +1,8 @@
 ReadingCodeGood::Application.routes.draw do
 
   root "pages#index"
+  get '/faqs' => "pages#faq", as: 'faqs'
+  get '/code-bases' => "pages#code_base", as: 'code_bases'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

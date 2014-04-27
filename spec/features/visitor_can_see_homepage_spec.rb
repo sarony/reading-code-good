@@ -18,8 +18,8 @@ feature 'Visitor can see homepage' do
     expect(page).to have_content(CodeBase.first.language.name)
     expect(page).to have_content(CodeBase.first.loc.range)
     expect(page).to have_link('@readingcodegood')
-    expect(page).to have_link('FAQ', href: faq_path)
-    expect(page).to have_link('CodeBases', href: code_bases_path)
+    expect(page).to have_link('FAQs', href: faqs_path)
+    expect(page).to have_link('Code Bases', href: code_bases_path)
   end  
 
 end
