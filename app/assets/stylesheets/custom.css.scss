@@ -1,7 +1,23 @@
+h1, h2, h3 {
+  font-family: "Helvetica", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  @include outer-container;
+}
+
 section {
   @include outer-container;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+.introduction {
+  @include span-columns(12);
 }
 
 article {
@@ -10,31 +26,36 @@ article {
 }
 
 header {
-  @include outer-container;
-  text-align: center;
+  background: yellow;
+  padding-top: 50px;
+
+  h1 {
+    font-family: "Cabin Sketch", "sans-serif";
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+  }
 }
 
 nav {
-  @include outer-container;
   background: yellow;
+  width: 99%;
+  margin: 0 auto;
 }
 
 nav ul {
-  @include span-columns(6);
-  @include shift(3);
   background: green;
-  text-align: middle;
-  padding: 0 auto;
-  
-  li {
-    display: inline;
-  }
+  text-align: center;
+}
 
-  li a {
-    color: black;
-    text-decoration: none;
-    background: pink;
-    padding: 5px;
-    margin: 0 8px;
-  }
+nav ul li {
+  display: inline;
+  background: yellow;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  background: pink;
+  margin: 0 8px;
 }
