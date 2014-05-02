@@ -1,5 +1,6 @@
-h1, h2, h3, li, p {
+h1, h2, h3, li, p, table, tr, td, a {
   font-family: "Helvetica", "sans-serif";
+  color: $brown;
 }
 
 a {
@@ -8,50 +9,128 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: $dark-orange;
 }
 
 body {
   @include outer-container;
 }
 
-
 section {
   @include outer-container;
   margin-bottom: 15px;
   margin-top: 15px;
+  border-bottom: 1px solid $light-gray;
 }
 
 .introduction-background {
-  background: yellow;
-}
+/*  background-color: $orange;
+*/}
 
 .introduction {
   @include span-columns(8);
   h3 {
-    font-weight: 200;    
+    font-weight: 200; 
+    line-height: 2.2em;
+    font-size: 1.2em;   
   }
+}
+
+.faqs {
+  @include span-columns(12);
+    h3 {
+    font-weight: 200; 
+    line-height: 2em;   
+  }
+
+  h3.answer {
+    padding-left: 35px;
+  }
+
   h3.questions {
-    font-weight: bold;
+    font-family: "Architects Daughter";
+    font-size: 1.4em;
+    color: $orange;
   }
+  h3.questions:before {
+    content: "• ";
+    color: $light-orange;
+    padding-right: 20px;
+    font-size: 1.5em;
+  } 
 }
 
 article {
   @include span-columns(6);
-  background: pink;
+  padding-bottom: 50px;
+  h1 {
+    color: $orange;
+    font-family: "Architects Daughter", "sans-serif";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2em;
+  }
+}
+
+.resources {
+  border-right: 1px solid $light-gray;
+  a {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    line-height: 1.8em;
+  }
+  li {
+    list-style: none;
+  }
+  li:before {
+    content: "• " ;
+    color: $light-orange;
+    padding-right: 30px;
+    font-size: 1.5em;
+  }
+}
+
+.code-base {
+  table {
+      border-collapse: collapse;
+      font-size: 1.3em;
+  }
+  td {
+    padding: 10px 30px;
+    min-width: 80px;
+/*    border-right: 1px solid $light-gray;
+*/  }
+
+  td:last-child {
+    border-right: none;
+  }
+
+  tr {
+    border-bottom: 1px solid $light-gray;
+    margin: 10px 0;
+  }
+
+  tr:last-child {
+    border: none;
+  }
 }
 
 header {
-  background: yellow;
   padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $light-gray;
 
-  h1 {
-    font-family: "Cabin Sketch", "sans-serif";
-    font-size: 5em;
+  h1 a {
+    font-family: "Architects Daughter", "sans-serif";
+    color: $orange;
+    text-transform: uppercase;
+    font-size: 3em;
   }
 
   h3 {
-    font-family: "Architects Daughter", "sans-serif";
+    font-family: "Helvetica", "sans-serif";
+    font-weight: 200;
+    font-size: 1.1em;
   }
 
   h1, h3 {
@@ -61,24 +140,29 @@ header {
 }
 
 nav {
-  background: yellow;
   width: 99%;
   margin: 0 auto;
+
+  ul {
+    text-align: center;
+
+    li {
+      display: inline;
+
+      a {
+        color: black;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+    }
+  }
 }
 
-nav ul {
-  background: green;
+footer {
   text-align: center;
-}
+  padding: 15px 0;
 
-nav ul li {
-  display: inline;
-  background: yellow;
-}
-
-nav ul li a {
-  color: black;
-  text-decoration: none;
-  background: pink;
-  margin: 0 15px;
+  h3 {
+    font-weight: 200;
+  }
 }

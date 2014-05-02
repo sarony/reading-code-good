@@ -5,13 +5,12 @@
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
     <h1><a href=<%= root_path %>>Reading Code Good</a><h1>
-    <h3>Because reading code well is boring. Based on the RailsConf2014 talk "Reading Code Good" </h3>
+    <h3>Because reading code well is boring. Based on the RailsConf2014 talk "Reading Code Good" by <a href="http://twitter.com/saronyitbarek" target="_blank">Saron</a></h3>
   </header>
     <%= render 'layouts/nav' %>
     <%= yield %>
