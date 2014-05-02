@@ -1,0 +1,149 @@
+/* line 2, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+h1, h2, h3, li, p {
+  font-family: "Helvetica", "sans-serif";
+}
+
+/* line 5, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 10, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+a:hover {
+  color: orange;
+}
+
+/* line 14, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.1.1/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 19, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.1.1/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 25, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction-background {
+  background: yellow;
+}
+
+/* line 29, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.introduction:last-child {
+  margin-right: 0;
+}
+/* line 31, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction h3 {
+  font-weight: 200;
+}
+/* line 34, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction h3.questions {
+  font-weight: bold;
+}
+
+/* line 39, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background: pink;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+article:last-child {
+  margin-right: 0;
+}
+
+/* line 44, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header {
+  background: yellow;
+  padding-top: 80px;
+}
+/* line 48, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h1 {
+  font-family: "Cabin Sketch", "sans-serif";
+  font-size: 5em;
+}
+/* line 53, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h3 {
+  font-family: "Architects Daughter", "sans-serif";
+}
+/* line 57, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h1, header h3 {
+  text-align: center;
+  margin: 0;
+}
+
+/* line 63, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav {
+  background: yellow;
+  width: 99%;
+  margin: 0 auto;
+}
+
+/* line 69, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul {
+  background: green;
+  text-align: center;
+}
+
+/* line 74, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul li {
+  display: inline;
+  background: yellow;
+}
+
+/* line 79, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  background: pink;
+  margin: 0 15px;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
