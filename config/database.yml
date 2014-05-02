@@ -9,3 +9,7 @@ development: &default
 test:
   <<: *default
   database: readingcodegood_test
+
+production:
+  <<: *default
+  database: readingcodegood_test
