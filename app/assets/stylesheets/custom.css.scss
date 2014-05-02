@@ -203,6 +203,13 @@ footer {
 
 /*-------------- MEDIA QUERIES -----------------*/
 
-@media only screen and (max-width: 950px) {
-
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 640px)
+and (orientation : portrait) {
+  .resources {
+    @include span-columns(12);
+    border-bottom: $gray-border;
+    border-right: none
+  }
 }
