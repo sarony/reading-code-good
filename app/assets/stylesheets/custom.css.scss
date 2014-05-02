@@ -212,4 +212,23 @@ and (orientation : portrait) {
     border-bottom: $gray-border;
     border-right: none
   }
+  .article {
+    @include span-columns(12);
+
+  }
+  .introduction {
+    @include span-columns(12);
+  }
+  .introduction-background {
+    background: none;
+  }
+  .cartoon {
+    height: 350px;
+    background-image: url("./cape-site.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .body {
+    margin: 0 30px;
+  }
 }

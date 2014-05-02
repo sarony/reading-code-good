@@ -317,6 +317,48 @@ footer h3 {
   .resources:last-child {
     margin-right: 0;
   }
+
+  /* line 215, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .article:last-child {
+    margin-right: 0;
+  }
+
+  /* line 219, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .introduction {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .introduction:last-child {
+    margin-right: 0;
+  }
+
+  /* line 222, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .introduction-background {
+    background: none;
+  }
+
+  /* line 225, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .cartoon {
+    height: 350px;
+    background-image: url("./cape-site.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* line 231, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .body {
+    margin: 0 30px;
+  }
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
