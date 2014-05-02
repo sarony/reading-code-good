@@ -1,29 +1,32 @@
-<section>
+<section class="introduction-background">
   <article class="introduction">
-    <h3>I wanted to me be this chic, a clear programming master.</h3>
-    <h3>Look at that cape! She obviously knows what she's doing.</h3>
-    <h3>So when I asked other developers how to get from novice to programming badass, the most common answer I got was " READ CODE.</h3>
-    <h3>So I started a #CodeClub</h3>
+    <h3>I wanted to me be a programming master, like this chic.</h3>
+    <h3>Look at that cape! She clearly knows what she's doing.</h3>
+    <h3>So I asked other developers for ways to help me get from novice to programming badass, and the most common answer I got was "READ CODE".</h3>
+    <h3>So I started a #CodeClub.</h3>
     <h3 class="questions">What's a #CodeClub?</h3>
     <h3>A #CodeClub is like a Book Club, but you read code instead. You can do it remotely (we do it via. Google Hangout), or in person.</h3>
-    <h3 class="questions">What's a #CodeClub?</h3>
+    <h3 class="questions">How do you start one?</h3>
+    <h3> GREAT question! First you have to find</h3>
+    <h3 class="questions">But what code should I read? And how do I read it?</h3>
+    <h3 class="questions">I'm looking for people to start a #CodeClub with. How do I do that?</h3>
+    <h3 class="questions">Ok, but how is this getting me to be a programming badass? What are the *real* benefits?</h3>
   </article>
 </section>
 
 <section>
   <article class="faq">
     <h1>#CodeClub Resources</h1>
-    <% @faqs.each do |faq| %>
-      <%= faq.question %>
-    <% end %>
+      <p><a href="http://www.slideshare.net/saronyitbarek/reading-code-good">Slides From #RailsConf</a></p>
+      <p><a href="http://www.sitepoint.com/reading-ruby-professional-development/">Reading Ruby for Professional Development</a></p>
   </article>
 
   <article class="code-base">
     <h1>Code Bases</h1>
     <% @code_bases.each do |code_base| %>
-      <%= code_base.name %>
+      <p><%= code_base.name %>
       <%= code_base.language.name %>
-      <%= code_base.loc.range %>
+      <%= code_base.loc.range %></p>
     <% end %>
   </article>
 </section>

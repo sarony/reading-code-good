@@ -1,14 +1,20 @@
-h1, h2, h3, li {
+h1, h2, h3, li, p {
   font-family: "Helvetica", "sans-serif";
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: orange;
 }
 
 body {
   @include outer-container;
 }
+
 
 section {
   @include outer-container;
@@ -16,10 +22,17 @@ section {
   margin-top: 15px;
 }
 
+.introduction-background {
+  background: yellow;
+}
+
 .introduction {
-  @include span-columns(12);
+  @include span-columns(8);
   h3 {
-    
+    font-weight: 200;    
+  }
+  h3.questions {
+    font-weight: bold;
   }
 }
 
