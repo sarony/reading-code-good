@@ -208,8 +208,8 @@ and (min-device-width : 320px)
 and (max-device-width : 640px)
 and (orientation : portrait) {
 
-  h3 {
-    font-size: 1.7em;
+  h3, .introduction h3, .faqs h3, header h3, h3.questions {
+    font-size: 2em;
   }
 
   .resources {

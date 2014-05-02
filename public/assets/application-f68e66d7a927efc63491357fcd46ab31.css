@@ -305,8 +305,8 @@ footer h3 {
 /*-------------- MEDIA QUERIES -----------------*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: portrait) {
   /* line 211, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
-  h3 {
-    font-size: 1.7em;
+  h3, .introduction h3, .faqs h3, header h3, h3.questions {
+    font-size: 2em;
   }
 
   /* line 215, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
