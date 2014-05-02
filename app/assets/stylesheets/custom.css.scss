@@ -208,10 +208,10 @@ and (min-device-width : 320px)
 and (max-device-width : 640px)
 and (orientation : portrait) {
 
-  h3, .introduction h3, .faqs h3, header h3, h3.questions {
+  h3, .introduction h3, .faqs h3, header h3, h3.questions, .questions h3, h3.questions:before {
     font-size: 2em;
   }
-
+  
   .resources {
     @include span-columns(12);
     border-bottom: $gray-border;
