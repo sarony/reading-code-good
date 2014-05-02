@@ -41,7 +41,7 @@ loc = Loc.create(
       id: 1
     },
     {
-      range: "101-400",
+      range: "100-500",
       id: 2
     }
   ]
@@ -51,13 +51,37 @@ code_bases = CodeBase.create(
   [
     {
       name: "GoogleBooks",
-      link: "http://googlebooks.com",
+      link: "https://github.com/zeantsoi/GoogleBooks",
       language_id: 1,
       loc_id: 1
     },
     {
       name: "Dotenv",
-      link: "http://dotenv.com",
+      link: "https://github.com/bkeepers/dotenv",
+      language_id: 1,
+      loc_id: 1
+    },
+    {
+      name: "Figaro",
+      link: "https://github.com/laserlemon/figaro",
+      language_id: 1,
+      loc_id: 2
+    },
+    {
+      name: "Omniauth-Meetup",
+      link: "https://github.com/tapster/omniauth-meetup",
+      language_id: 1,
+      loc_id: 1
+    },
+    {
+      name: "Country Select",
+      link: "https://github.com/37signals/country_and_region_select",
+      language_id: 1,
+      loc_id: 1
+    },
+    {
+      name: "Gravatar Image Tag",
+      link: "https://github.com/mdeering/gravatar_image_tag",
       language_id: 1,
       loc_id: 1
     }

@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* line 2, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+h1, h2, h3, li, p, table, tr, td, a {
+  font-family: "Helvetica", "sans-serif";
+  color: #716558;
+}
+
+/* line 6, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 11, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+a:hover {
+  color: #ed7d03;
+}
+
+/* line 15, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.1.1/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 950px) {
+  /* line 15, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  body {
+    margin: 0 30px;
+  }
+}
+
+/* line 22, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #eae9e8;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.1.1/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 950px) {
+  /* line 29, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .cartoon {
+    height: 350px;
+    background-image: url("./cape-site.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* line 38, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction-background {
+  background-image: url("./cape-site.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+@media only screen and (max-width: 950px) {
+  /* line 38, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .introduction-background {
+    background: none;
+  }
+}
+/* line 47, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction-background article:first-child {
+  padding-bottom: 0;
+}
+
+/* line 52, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.introduction:last-child {
+  margin-right: 0;
+}
+/* line 54, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.introduction h3 {
+  font-weight: 200;
+  line-height: 2.2em;
+  font-size: 1.2em;
+}
+@media only screen and (max-width: 950px) {
+  /* line 52, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .introduction {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .introduction:last-child {
+    margin-right: 0;
+  }
+}
+
+/* line 64, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.faqs {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.faqs:last-child {
+  margin-right: 0;
+}
+/* line 66, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.faqs h3 {
+  font-weight: 200;
+  line-height: 2em;
+}
+/* line 71, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.faqs h3.answer {
+  padding-left: 35px;
+}
+/* line 75, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.faqs h3.questions {
+  font-family: "Architects Daughter";
+  font-size: 1.4em;
+  color: #f7931d;
+}
+/* line 80, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.faqs h3.questions:before {
+  content: "• ";
+  color: #ffc48a;
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+
+/* line 88, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding-bottom: 50px;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+article:last-child {
+  margin-right: 0;
+}
+/* line 91, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+article h1 {
+  color: #f7931d;
+  font-family: "Architects Daughter", "sans-serif";
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2em;
+}
+@media only screen and (max-width: 950px) {
+  /* line 88, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  article:last-child {
+    margin-right: 0;
+  }
+}
+
+/* line 103, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.resources {
+  border-right: 1px solid #eae9e8;
+}
+/* line 105, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.resources a {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  line-height: 1.8em;
+}
+/* line 110, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.resources li {
+  list-style: none;
+}
+/* line 113, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.resources li:before {
+  content: "• ";
+  color: #ffc48a;
+  padding-right: 30px;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 950px) {
+  /* line 103, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+  .resources {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    border-bottom: 1px solid #eae9e8;
+    border-right: none;
+  }
+  /* line 38, /usr/local/rvm/gems/ruby-2.1.1/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .resources:last-child {
+    margin-right: 0;
+  }
+}
+
+/* line 127, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.code-base table {
+  border-collapse: collapse;
+  font-size: 1.3em;
+}
+/* line 131, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.code-base td {
+  padding: 10px 30px;
+  min-width: 80px;
+  /*    border-right: 1px solid $light-gray;
+  */
+}
+/* line 137, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.code-base td:last-child {
+  border-right: none;
+}
+/* line 141, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.code-base tr {
+  border-bottom: 1px solid #eae9e8;
+  margin: 10px 0;
+}
+/* line 146, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+.code-base tr:last-child {
+  border: none;
+}
+
+/* line 151, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eae9e8;
+}
+/* line 156, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h1 a {
+  font-family: "Architects Daughter", "sans-serif";
+  color: #f7931d;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+/* line 163, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h3 {
+  font-family: "Helvetica", "sans-serif";
+  font-weight: 200;
+  font-size: 1.1em;
+}
+/* line 169, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+header h1, header h3 {
+  text-align: center;
+  margin: 0;
+}
+
+/* line 175, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav {
+  width: 99%;
+  margin: 0 auto;
+}
+/* line 179, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul {
+  text-align: center;
+}
+/* line 182, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul li {
+  display: inline;
+}
+/* line 185, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* line 194, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+footer {
+  text-align: center;
+  padding: 15px 0;
+}
+/* line 198, /Users/syitbarek/Development/code/reading_code_good/reading_code_good/app/assets/stylesheets/custom.css.scss */
+footer h3 {
+  font-weight: 200;
+}
+
+/*-------------- MEDIA QUERIES -----------------*/
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
