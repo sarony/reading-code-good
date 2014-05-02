@@ -116,7 +116,7 @@ article {
     padding-right: 30px;
     font-size: 1.5em;
   }
-  @media only screen and (max-width: 950px) {
+  @media only screen and (min-width: 480px) {
     @include span-columns(12);
     border-bottom: $gray-border;
     border-right: none
