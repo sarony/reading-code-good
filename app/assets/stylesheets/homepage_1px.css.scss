@@ -1,0 +1,48 @@
+#homepage {
+
+  section {
+    @include grid-row;
+    padding: 20px;
+    border-bottom: $orange-border;
+  }
+
+  h1 {
+    color: white;
+    background: $light-orange;
+    margin: 0 -10px ;
+    padding: 0 10px;
+  }
+
+  ul, ol {
+    list-style: none;
+    padding: 20px 0 0 0;
+    counter-reset: my-awesome-counter;
+  }
+
+  li {
+    margin-left: 10px;
+    padding: 15px 0 15px 0;
+    counter-increment: my-awesome-counter;
+    border-bottom: $orange-border;
+    line-height: 35px;
+  }
+
+  li:last-child {
+    border: none;
+  }
+
+  li:before {
+    content: counter(my-awesome-counter);
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 -40px;
+    width: 30px;
+    text-align: center;
+    border-radius: 1in;
+    border: 1.5px solid $light-orange;
+    font-weight: 900;
+    background: white;
+  }
+}

@@ -1,16 +1,21 @@
 h1, h2, h3, li, p, table, tr, td, a, ul {
   font-family: "Roboto", "sans-serif";
   color: $brown;
+  font-weight: 300;
 }
 
-// a {
-//   text-decoration: none;
-//   color: black;
-// }
+h3, li {
+  font-size: 20px;
+}
 
-// a:hover {
-//   color: $dark-orange;
-// }
+a {
+  text-decoration: none;
+  color: $dark-brown;
+}
+
+a:hover {
+  color: $dark-orange;
+}
 
 // body {
 //   @include grid-row;

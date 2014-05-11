@@ -1,9 +1,10 @@
 #nav {
-  border-bottom: 1px solid #ddd;
 }
 
 nav.top-bar {
   background: white;
+    border-bottom: 1px solid #ddd;
+
   ul, li, a, h1, .name h1 a {
     color: #aaa;
   }
@@ -19,12 +20,15 @@ nav.top-bar {
   }
 }
 
-.top-bar.expanded .title-area {
-  background: white;
+.top-bar.expanded {
+  .title-area {
+    background: white;
+  }
 }
-
+  
 nav {
   .top-bar-section {
+    border-bottom: 1px solid #ddd;
     background: white;
 
     ul li > a , li:not(.has-form) a:not(.button){
