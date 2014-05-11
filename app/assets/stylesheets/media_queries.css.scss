@@ -9,6 +9,6 @@
   @import "mailchimp";
 }
 
-@media only screen and (min-width: 789px) {
-
+@media only screen and (min-width: 700px) {
+  @import "homepage_desktop";
 }

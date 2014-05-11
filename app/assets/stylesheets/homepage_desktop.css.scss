@@ -1,0 +1,30 @@
+section {
+  article#resources {
+    @include grid-column(6);
+    border-right: 1px solid $light-gray;
+  }
+  article#codebases {
+    @include grid-column(6);
+  }
+}
+
+#homepage li:before {
+  font-size: 35px;
+  line-height: 50px;
+  margin-left: -60px;
+  width: 50px;
+}
+
+#homepage {
+  li {
+    margin-left: 45px;
+  }
+
+  h3, li  {
+    font-size: 25px;
+  }
+
+  td {
+    font-size: 25px;
+  }
+} 
