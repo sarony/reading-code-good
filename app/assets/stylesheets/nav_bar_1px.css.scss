@@ -1,0 +1,35 @@
+#nav {
+  border-bottom: 1px solid #ddd;
+}
+
+nav.top-bar {
+  background: white;
+  ul, li, a, h1, .name h1 a {
+    color: #aaa;
+  }
+
+  .toggle-topbar.menu-icon a::after {
+    box-shadow: 0 10px 0 1px #ddd, 0 16px 0 1px #ddd, 0 22px 0 1px #ddd;
+  }
+}
+
+.top-bar.expanded .title-area {
+  background: white;
+}
+
+nav {
+  .top-bar-section {
+    background: white;
+
+    ul li > a , li:not(.has-form) a:not(.button){
+      background: white;
+      color: #aaa;
+    }
+
+    li:not(.has-form) a:not(.button):hover, .name a:hover {
+      background: $light-orange;
+      color: white;
+    }
+
+  }
+}

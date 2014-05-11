@@ -3,7 +3,7 @@
 <head>
   <title>ReadingCodeGood</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "vendor/modernizr" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -18,14 +18,25 @@
 
   </script>
   <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic,700,500,300,500italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header>
-    <h1><a href=<%= root_path %>>Reading Code Good</a><h1>
-    <h3>Because reading code well is boring. Based on the RailsConf 2014 talk <a href="http://www.slideshare.net/saronyitbarek/reading-code-good" target="_blank">"Reading Code Good"</a> by <a href="http://twitter.com/saronyitbarek" target="_blank">Saron</a></h3>
-  </header>
+  <div id="reading-code-good">
     <%= render 'layouts/nav' %>
+    <header>
+      <h1><a href=<%= root_path %>>Reading Code Good</a><h1>
+      <h3>Because reading code well is boring. Based on the RailsConf 2014 talk <a href="http://www.slideshare.net/saronyitbarek/reading-code-good" target="_blank">"Reading Code Good"</a> by <a href="http://twitter.com/saronyitbarek" target="_blank">Saron</a></h3>
+    </header>
     <%= yield %>
     <%= render 'layouts/footer' %>
+  </div>
 </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $(document).foundation();
+
+    $('.menu-icon').click(function(){ false });
+    });
+  </script>
+
 </html>

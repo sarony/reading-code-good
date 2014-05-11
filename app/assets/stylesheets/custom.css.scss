@@ -1,240 +1,240 @@
-h1, h2, h3, li, p, table, tr, td, a {
-  font-family: "Helvetica", "sans-serif";
+h1, h2, h3, li, p, table, tr, td, a, ul {
+  font-family: "Roboto", "sans-serif";
   color: $brown;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
+// a {
+//   text-decoration: none;
+//   color: black;
+// }
 
-a:hover {
-  color: $dark-orange;
-}
+// a:hover {
+//   color: $dark-orange;
+// }
 
-body {
-  @include grid-row;
-  @media only screen and (max-width: 950px) {
-    margin: 0 30px;
-  }
-}
+// body {
+//   @include grid-row;
+//   @media only screen and (max-width: 950px) {
+//     margin: 0 30px;
+//   }
+// }
 
-section {
-  @include grid-row;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  border-bottom: 1px solid $light-gray;
-}
+// // section {
+// //   @include grid-row;
+// //   margin-bottom: 15px;
+// //   margin-top: 15px;
+// //   border-bottom: 1px solid $light-gray;
+// // }
 
-.cartoon {
-  @media only screen and (max-width: 950px) {
-    height: 350px;
-    background-image: url("./cape-site.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
+// .cartoon {
+//   @media only screen and (max-width: 950px) {
+//     height: 350px;
+//     background-image: url("./cape-site.png");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }
+// }
 
-.introduction-background {
-  background-image: url("./cape-site.png");
-  background-repeat: no-repeat;
-  background-position: right top;
+// .introduction-background {
+//   background-image: url("./cape-site.png");
+//   background-repeat: no-repeat;
+//   background-position: right top;
 
-  @media only screen and (max-width: 950px) {
-    background: none;
-  }
+//   @media only screen and (max-width: 950px) {
+//     background: none;
+//   }
 
-  article:first-child {
-    padding-bottom: 0;
-  }
-}
+//   article:first-child {
+//     padding-bottom: 0;
+//   }
+// }
 
-.introduction {
-  @include grid-column(6);
-  h3 {
-    font-weight: 200; 
-    line-height: 2.2em;
-    font-size: 1.2em;   
-  }
-  @media only screen and (max-width: 950px) {
-    @include grid-column(12);
-  }
-}
+// .introduction {
+//   @include grid-column(6);
+//   h3 {
+//     font-weight: 200; 
+//     line-height: 2.2em;
+//     font-size: 1.2em;   
+//   }
+//   @media only screen and (max-width: 950px) {
+//     @include grid-column(12);
+//   }
+// }
 
-.faqs {
-  @include grid-column(12);
-    h3 {
-    font-weight: 200; 
-    line-height: 2em;   
-  }
+// .faqs {
+//   @include grid-column(12);
+//     h3 {
+//     font-weight: 200; 
+//     line-height: 2em;   
+//   }
 
-  h3.answer {
-    padding-left: 35px;
-  }
+//   h3.answer {
+//     padding-left: 35px;
+//   }
 
-  h3.questions {
-    font-family: "Architects Daughter";
-    font-size: 1.4em;
-    color: $orange;
-  }
-  h3.questions:before {
-    content: "• ";
-    color: $light-orange;
-    padding-right: 20px;
-    font-size: 1.5em;
-  } 
-}
+//   h3.questions {
+//     font-family: "Architects Daughter";
+//     font-size: 1.4em;
+//     color: $orange;
+//   }
+//   h3.questions:before {
+//     content: "• ";
+//     color: $light-orange;
+//     padding-right: 20px;
+//     font-size: 1.5em;
+//   } 
+// }
 
-article {
-  @include grid-column(6);
-  padding-bottom: 50px;
-  h1 {
-    color: $orange;
-    font-family: "Architects Daughter", "sans-serif";
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 2em;
-  }
-  @media only screen and (max-width: 950px) {
-    @include grid-column(12);
-  }
-}
+// article {
+//   @include grid-column(6);
+//   padding-bottom: 50px;
+//   h1 {
+//     color: $orange;
+//     font-family: "Architects Daughter", "sans-serif";
+//     text-transform: uppercase;
+//     font-weight: 200;
+//     font-size: 2em;
+//   }
+//   @media only screen and (max-width: 950px) {
+//     @include grid-column(12);
+//   }
+// }
 
-.resources {
-  border-right: 1px solid $light-gray;
-  a {
-    font-size: 1.3em;
-    margin-bottom: 15px;
-    line-height: 1.8em;
-  }
-  li {
-    list-style: none;
-  }
-  li:before {
-    content: "• " ;
-    color: $light-orange;
-    padding-right: 30px;
-    font-size: 1.5em;
-  }
-  @media only screen and (min-width: 480px) {
-    @include grid-column(12);
-    border-bottom: $gray-border;
-    border-right: none
-  }
-}
+// .resources {
+//   border-right: 1px solid $light-gray;
+//   a {
+//     font-size: 1.3em;
+//     margin-bottom: 15px;
+//     line-height: 1.8em;
+//   }
+//   li {
+//     list-style: none;
+//   }
+//   li:before {
+//     content: "• " ;
+//     color: $light-orange;
+//     padding-right: 30px;
+//     font-size: 1.5em;
+//   }
+//   @media only screen and (min-width: 480px) {
+//     @include grid-column(12);
+//     border-bottom: $gray-border;
+//     border-right: none
+//   }
+// }
 
-.code-base {
-  table {
-      border-collapse: collapse;
-      font-size: 1.3em;
-  }
-  td {
-    padding: 10px 30px;
-    min-width: 80px;
-/*    border-right: 1px solid $light-gray;
-*/  }
+// .code-base {
+//   table {
+//       border-collapse: collapse;
+//       font-size: 1.3em;
+//   }
+//   td {
+//     padding: 10px 30px;
+//     min-width: 80px;
+// /*    border-right: 1px solid $light-gray;
+// */  }
 
-  td:last-child {
-    border-right: none;
-  }
+//   td:last-child {
+//     border-right: none;
+//   }
 
-  tr {
-    border-bottom: 1px solid $light-gray;
-    margin: 10px 0;
-  }
+//   tr {
+//     border-bottom: 1px solid $light-gray;
+//     margin: 10px 0;
+//   }
 
-  tr:last-child {
-    border: none;
-  }
-}
+//   tr:last-child {
+//     border: none;
+//   }
+// }
 
-header {
-  padding-top: 80px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid $light-gray;
+// header {
+//   padding-top: 80px;
+//   padding-bottom: 20px;
+//   border-bottom: 1px solid $light-gray;
 
-  h1 a {
-    font-family: "Architects Daughter", "sans-serif";
-    color: $orange;
-    text-transform: uppercase;
-    font-size: 3em;
-  }
+//   h1 a {
+//     font-family: "Architects Daughter", "sans-serif";
+//     color: $orange;
+//     text-transform: uppercase;
+//     font-size: 3em;
+//   }
 
-  h3 {
-    font-family: "Helvetica", "sans-serif";
-    font-weight: 200;
-    font-size: 1.1em;
-  }
+//   h3 {
+//     font-family: "Helvetica", "sans-serif";
+//     font-weight: 200;
+//     font-size: 1.1em;
+//   }
 
-  h1, h3 {
-    text-align: center;
-    margin: 0;
-  }
-}
+//   h1, h3 {
+//     text-align: center;
+//     margin: 0;
+//   }
+// }
 
-nav {
-  width: 99%;
-  margin: 0 auto;
+// nav {
+//   width: 99%;
+//   margin: 0 auto;
 
-  ul {
-    text-align: center;
+//   ul {
+//     text-align: center;
 
-    li {
-      display: inline;
+//     li {
+//       display: inline;
 
-      a {
-        color: black;
-        text-decoration: none;
-        margin: 0 15px;
-      }
-    }
-  }
-}
+//       a {
+//         color: black;
+//         text-decoration: none;
+//         margin: 0 15px;
+//       }
+//     }
+//   }
+// }
 
-footer {
-  text-align: center;
-  padding: 15px 0;
+// footer {
+//   text-align: center;
+//   padding: 15px 0;
 
-  h3 {
-    font-weight: 200;
-  }
-}
+//   h3 {
+//     font-weight: 200;
+//   }
+// }
 
 
-/*-------------- MEDIA QUERIES -----------------*/
+// /*-------------- MEDIA QUERIES -----------------*/
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 640px)
-and (orientation : portrait) {
+// @media only screen
+// and (min-device-width : 320px)
+// and (max-device-width : 640px)
+// and (orientation : portrait) {
 
-  h3, .introduction h3, .faqs h3, header h3, h3.questions, .questions h3, h3.questions:before {
-    font-size: 2em;
-  }
+//   h3, .introduction h3, .faqs h3, header h3, h3.questions, .questions h3, h3.questions:before {
+//     font-size: 2em;
+//   }
   
-  .resources {
-    @include grid-column(12);
-    border-bottom: $gray-border;
-    border-right: none
-  }
-  .article {
-    @include grid-column(12);
+//   .resources {
+//     @include grid-column(12);
+//     border-bottom: $gray-border;
+//     border-right: none
+//   }
+//   .article {
+//     @include grid-column(12);
 
-  }
-  .introduction {
-    @include grid-column(12);
-  }
-  .introduction-background {
-    background: none;
-  }
-  .cartoon {
-    height: 350px;
-    background-image: url("./cape-site.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .body {
-    @include grid-row;
-    margin: 0 30px;
-  }
-}
+//   }
+//   .introduction {
+//     @include grid-column(12);
+//   }
+//   .introduction-background {
+//     background: none;
+//   }
+//   .cartoon {
+//     height: 350px;
+//     background-image: url("./cape-site.png");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }
+//   .body {
+//     @include grid-row;
+//     margin: 0 30px;
+//   }
+// }
