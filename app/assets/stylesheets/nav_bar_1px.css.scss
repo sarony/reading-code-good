@@ -1,9 +1,12 @@
 #nav {
+  .sticky {
+    border-bottom: 1px solid #ddd;
+
+  }
 }
 
 nav.top-bar {
   background: white;
-    border-bottom: 1px solid #ddd;
 
   ul, li, a, h1, .name h1 a {
     color: #aaa;
