@@ -8,6 +8,12 @@ nav.top-bar {
     color: #aaa;
   }
 
+  .name h1 a {
+    font-family: "Architects Daughter";
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
   .toggle-topbar.menu-icon a::after {
     box-shadow: 0 10px 0 1px #ddd, 0 16px 0 1px #ddd, 0 22px 0 1px #ddd;
   }
