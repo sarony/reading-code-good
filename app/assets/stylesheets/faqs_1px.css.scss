@@ -3,6 +3,11 @@
   font-weight: 500;
 }
 
+.questions:hover {
+
+  color: $light-orange;
+}
+
 .answers {
   padding-bottom: 20px;
   border-bottom: $orange-border;
