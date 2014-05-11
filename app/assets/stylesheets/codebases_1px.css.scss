@@ -1,0 +1,37 @@
+#codebases {
+  table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: none;
+    border: none;
+  }
+  
+  td {
+    padding: 10px;
+    font-size: 17px;
+    text-alight: left;
+/*    border-right: 1px solid $light-gray;
+*/  }
+
+  td:last-child {
+    border-right: none;
+  }
+
+  tr {
+    border-bottom: 1px solid $light-gray;
+  }
+
+  tr:last-child {
+    border: none;
+    background: none;
+  }
+
+  p {
+    text-align: center;
+    color: $dark-orange;
+    a {
+      color: $dark-orange;
+      font-weight: 400;
+    }
+  }
+}

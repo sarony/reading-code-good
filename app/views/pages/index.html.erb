@@ -61,6 +61,7 @@
       </ul>
     </article>
 
+    <article id="codebases">
       <h1>Code Bases</h1>
       <table>
         <% @code_bases.each do |code_base| %>
@@ -71,7 +72,13 @@
         </tr>
        <% end %>
       </table>
-
+      <p>Got a codebase to add? <%= mail_to "readingcodegood@gmail.com", "Email us!", target: "_blank" %></p>
+    </article>
+  </section>
+  <section>
+    <article id="about">
+      <h1>About</h1>
+      <h3> Looking to start a #CodeClub? Have a good code base you want to post here? Tell me about it! <a href="http://twitter.com/readingcodegood">@readingcodegood</a></h3>
     </article>
   </section>
 </div>
