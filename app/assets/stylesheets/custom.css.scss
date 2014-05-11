@@ -13,14 +13,14 @@ a:hover {
 }
 
 body {
-  @include outer-container;
+  @include grid-row;
   @media only screen and (max-width: 950px) {
     margin: 0 30px;
   }
 }
 
 section {
-  @include outer-container;
+  @include grid-row;
   margin-bottom: 15px;
   margin-top: 15px;
   border-bottom: 1px solid $light-gray;
@@ -50,19 +50,19 @@ section {
 }
 
 .introduction {
-  @include span-columns(6);
+  @include grid-column(6);
   h3 {
     font-weight: 200; 
     line-height: 2.2em;
     font-size: 1.2em;   
   }
   @media only screen and (max-width: 950px) {
-    @include span-columns(12);
+    @include grid-column(12);
   }
 }
 
 .faqs {
-  @include span-columns(12);
+  @include grid-column(12);
     h3 {
     font-weight: 200; 
     line-height: 2em;   
@@ -86,7 +86,7 @@ section {
 }
 
 article {
-  @include span-columns(6);
+  @include grid-column(6);
   padding-bottom: 50px;
   h1 {
     color: $orange;
@@ -96,7 +96,7 @@ article {
     font-size: 2em;
   }
   @media only screen and (max-width: 950px) {
-    @include span-columns(12);
+    @include grid-column(12);
   }
 }
 
@@ -117,7 +117,7 @@ article {
     font-size: 1.5em;
   }
   @media only screen and (min-width: 480px) {
-    @include span-columns(12);
+    @include grid-column(12);
     border-bottom: $gray-border;
     border-right: none
   }
@@ -213,16 +213,16 @@ and (orientation : portrait) {
   }
   
   .resources {
-    @include span-columns(12);
+    @include grid-column(12);
     border-bottom: $gray-border;
     border-right: none
   }
   .article {
-    @include span-columns(12);
+    @include grid-column(12);
 
   }
   .introduction {
-    @include span-columns(12);
+    @include grid-column(12);
   }
   .introduction-background {
     background: none;
@@ -234,7 +234,7 @@ and (orientation : portrait) {
     background-position: center;
   }
   .body {
-    @include outer-container;
+    @include grid-row;
     margin: 0 30px;
   }
 }
