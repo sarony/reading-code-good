@@ -6,9 +6,10 @@
   @import "resources_1px";
   @import "about_1px";
   @import "codebases_1px";
-  @import "mailchimp";
+  @import "mailchimp_1px";
 }
 
 @media only screen and (min-width: 700px) {
   @import "homepage_desktop";
+  @import "mailchimp_desktop";
 }

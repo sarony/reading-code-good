@@ -27,4 +27,35 @@ section {
   td {
     font-size: 25px;
   }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inline;
+    @include grid-column(6);
+    padding-top: 28px;
+  }
+
+  .intro {
+    padding-top: 30px;
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      color: white;
+    }
+  }
+
+  section.introduction-background {
+    .intro-row {
+            @include grid-row;
+
+    }
+    max-width: none;
+    background-color: orange;
+    article {
+      @include grid-column(6);
+    }
+  }
 } 

@@ -4,6 +4,10 @@
     width: 100%;
   }
 
+  .desktop {
+    display: none;
+  }
+
   section {
     @include grid-row;
     padding: 20px;

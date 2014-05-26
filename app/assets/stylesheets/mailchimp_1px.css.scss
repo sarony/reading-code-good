@@ -1,0 +1,24 @@
+.intro #mc_embed_signup {
+  label {
+    display: none;
+  }
+}
+
+#mc_embed_signup input.button {
+  background-color: $light-orange;
+  height: 40px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  border-radius: 8px 8px 8px 8px;
+  text-align: center;
+}
+
+#mc_embed_signup input.button:hover {
+  color: $dark-orange;
+  background-color: white;
+
+}
+
+#mc_embed_signup input.email {
+  border: $gray-border;
+}

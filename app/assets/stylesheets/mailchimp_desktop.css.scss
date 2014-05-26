@@ -1,3 +1,14 @@
+.intro #mc_embed_signup {
+  background-color: orange;
+  label {
+    display: none;
+  }
+
+  form {
+    padding: 0;
+  }
+}
+
 #mc_embed_signup input.button {
   background-color: $light-orange;
   height: 40px;
@@ -8,8 +19,8 @@
 }
 
 #mc_embed_signup input.button:hover {
-  color: white;
-  background-color: $dark-orange;
+  color: $dark-orange;
+  background-color: white;
 
 }
 

@@ -13,7 +13,7 @@ nav.top-bar {
   }
 
   .name h1 a {
-    font-family: "Architects Daughter";
+    font-family: "Roboto", "Helvetica", sans-serif;
     font-size: 20px;
     text-transform: uppercase;
   }
@@ -31,12 +31,16 @@ nav.top-bar {
   
 nav {
   .top-bar-section {
+    a {
+      text-transform: uppercase;
+    }
     border-bottom: 1px solid #ddd;
     background: white;
 
     ul li > a , li:not(.has-form) a:not(.button){
       background: white;
       color: #aaa;
+      text-transform: uppercase;
     }
 
     li:not(.has-form) a:not(.button):hover, .name a:hover {
