@@ -1,4 +1,8 @@
 #homepage {
+  iframe {
+    padding-top: 10px;
+    width: 100%;
+  }
 
   section {
     @include grid-row;
