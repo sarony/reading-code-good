@@ -12,6 +12,11 @@ $(document).ready(function(){
     padding = 200
   }
 
+  $(".js-faqs-railsconf").on("click", function(){
+    scrollToPosition = ($( $(this).attr('href')).offset().top) - padding
+    scrolling();
+  });
+
   $(".js-faqs-nav").on("click", function(){
     scrollToPosition = ($( $(this).attr('href')).offset().top) - padding
     scrolling();

@@ -1,5 +1,4 @@
 .intro #mc_embed_signup {
-  background-color: orange;
   label {
     display: none;
   }
@@ -10,7 +9,6 @@
 }
 
 #mc_embed_signup input.button {
-  background-color: $light-orange;
   height: 40px;
   font-family: "Roboto";
   text-transform: uppercase;
@@ -19,8 +17,8 @@
 }
 
 #mc_embed_signup input.button:hover {
-  color: $dark-orange;
-  background-color: white;
+  color: white;
+  background-color: $dark-orange;
 
 }
 

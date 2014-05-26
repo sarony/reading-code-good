@@ -41,19 +41,18 @@ section {
   .intro {
     padding-top: 30px;
     p {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 20px;
-      color: white;
+      color: $brown;
     }
   }
 
   section.introduction-background {
     .intro-row {
-            @include grid-row;
+      @include grid-row;
 
     }
     max-width: none;
-    background-color: orange;
     article {
       @include grid-column(6);
     }

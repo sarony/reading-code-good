@@ -1,0 +1,15 @@
+.splash-image {
+  text-align: center;
+  #mc_embed_signup {
+    @include grid-row;
+    width: 400px;
+    padding-left: 35px;
+    input.email {
+      width: 100%
+    }
+    input.button:hover {
+      background: $dark-orange;
+      color: white;
+    }
+  }
+}
