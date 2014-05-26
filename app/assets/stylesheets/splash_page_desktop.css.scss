@@ -1,5 +1,9 @@
 .splash-image {
   text-align: center;
+  .image-signature {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
   #mc_embed_signup {
     @include grid-row;
     width: 400px;
